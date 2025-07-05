@@ -1,3 +1,3 @@
-#React js journey
+#React Learnings
 
-# package.json is a configuration of our npm.
+#package.json is configuration of our npm.
