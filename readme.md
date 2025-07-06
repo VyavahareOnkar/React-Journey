@@ -14,9 +14,8 @@
 
 #if I have package.json and package-lock.json, I can recreate my node modules with exact versions of my packages.
 
-
-
 #Parcel
+
 - Dev Build
 - Local Server
 - HMR - Hot Module Replacement
