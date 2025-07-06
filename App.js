@@ -4,11 +4,23 @@
 //     "Hello world using react"
 // );
 
-const parent = React.createElement(
-    "Div", 
-    { id: "parent" }, 
-    [React.createElement("Div", { id: "child1" }, React.createElement("h1", {}, "h1 inside child1")), React.createElement("Div", { id: "child2" }, React.createElement("h1", {}, "h1 inside child2"))])
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+const Heading = () => (
+  <h1 className="head" tabIndex="5">
+    Onkar Vyavahare
+  </h1>
+);
+
+const HeadingComponent = () =>  (
+    <div className="container">
+      <Heading />
+      <h1 className="heading">One Piece is Real!</h1>
+    </div>
+  );
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent);
+root.render(<HeadingComponent />);

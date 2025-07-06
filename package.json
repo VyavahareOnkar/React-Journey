@@ -1,0 +1,31 @@
+{
+  "name": "reactcourse",
+  "version": "1.0.0",
+  "description": "Start of the jounery with react.",
+  "homepage": "https://github.com/VyavahareOnkar/React-Journey#readme",
+  "bugs": {
+    "url": "https://github.com/VyavahareOnkar/React-Journey/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VyavahareOnkar/React-Journey.git"
+  },
+  "license": "ISC",
+  "author": "Onkar Vyavahare",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
