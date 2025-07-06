@@ -13,13 +13,12 @@ const Heading = () => (
   </h1>
 );
 
-const HeadingComponent = () =>  (
-    <div className="container">
-      <Heading />
-      <h1 className="heading">One Piece is Real!</h1>
-    </div>
-  );
-
+const HeadingComponent = () => (
+  <div className="container">
+    <Heading />
+    <h1 className="heading">One Piece is Real!</h1>
+  </div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
